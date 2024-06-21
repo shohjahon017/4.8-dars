@@ -158,9 +158,91 @@
 // console.log(spliceElement(arr));
 
 //20-masala
-let arr = [14, 545, 6, 58, 5218, 5];
-function sliceElement(arr) {
-  let res = arr.slice(2, arr.length);
-  return res;
-}
-console.log(sliceElement(arr));
+// let arr = [14, 545, 6, 58, 5218, 5];
+// function sliceElement(arr) {
+//   let res = arr.slice(2, arr.length);
+//   return res;
+// }
+// console.log(sliceElement(arr));
+
+//Search metodlariga oid masalalar.
+
+//1-masala
+// let arr = [12, 13, 14, 15, 18, 20];
+// function findElement(arr) {
+//   let res = arr.includes(12);
+//   return res;
+// }
+// console.log(findElement(arr));
+
+//2-masala
+// let arr = [1, 2, 5, 6, 8, 9];
+// function findIndexElement(arr) {
+//   let res = arr.indexOf(2);
+
+//   return res;
+// }
+// console.log(findIndexElement(arr));
+
+//3-masala
+// let arr = [1, 2, 3, 5, 6, 7, 8, 5];
+// function findLastIndexElement(arr) {
+//   let res = arr.lastIndexOf(5);
+//   return res;
+// }
+// console.log(findLastIndexElement(arr));
+
+//4-masala
+// let arr = [3, 2, 10, 5, 4, 6, 7, 20];
+
+// let result = arr.find(function (value, index, ar) {
+//   return value > 5;
+// });
+
+// console.log(result);
+
+//5-masala
+// let arr = [3, 2, 10, 20, 14, 1, 9, 21];
+// let result = arr.findIndex(function (value, index) {
+//   return index > 5;
+// });
+// console.log(result);
+
+//6-masala
+
+// let arr = ["Gentra", "Malibu", "BMW"];
+// function findElement(arr) {
+//   let res = arr.includes("Gentra");
+//   return res;
+// }
+// console.log(findElement(arr));
+
+//7-masala
+// let arr = [1, 3, 4, 11, 10, 8, 9];
+// function findIndexElement(arr) {
+//   let res = arr.indexOf(10);
+//   return res;
+// }
+// console.log(findIndexElement(arr));
+
+//8-masala
+// let arr = [1, 4, 59, 15, 75, 32];
+// function findLastIndexElement(arr) {
+//   let res = arr.lastIndexOf(15);
+//   return res;
+// }
+// console.log(findLastIndexElement(arr));
+
+//9-masala
+// let arr = [3, 2, 10, 155, 4, 641, 71, 20];
+// let result = arr.find(function (value, index, ar) {
+//   return value > 100;
+// });
+// console.log(result);
+
+//10-masala
+// let arr = [14, 15, 6, 51, 13];
+// let result = arr.find(function (value, index, ar) {
+//   return index < 50;
+// });
+// console.log(result);
